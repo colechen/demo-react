@@ -66,7 +66,6 @@ export class Records extends React.Component {
             <h3 className='panel-title'>Account</h3>
           </div>
           <div className='panel-body'>
-            <Clock />
             <legend>Records</legend>
             <div className='row'>
               <AmountBox type='success' amount={this.credits()} text='Credit' />
