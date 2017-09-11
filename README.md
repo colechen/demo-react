@@ -1,3 +1,3 @@
-Record example using React
+### Record example using React
 
 entry point: src/index.js
