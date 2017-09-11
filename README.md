@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```
 npm init
 npm install —save-dev babel-cli
@@ -34,3 +35,6 @@ createClass
 ES6 class
 Stateless function component - no locale method, performance benefit
 const MyComponent = (props) => (<div>{props.title}</div>)
+=======
+# demo-react
+>>>>>>> 7a7df7cc888c6f9d8014917c08b59bf33449758c
