@@ -27,17 +27,17 @@ const default_data = [
 
 
 (function() {
-	$.ajax({
+    $.ajax({
       method: 'GET',
       url: '/records/',
       success: function(data) {
       	console.log(data);
        	render(
-					<div>
-						< Records data={data}/>
-					</div>,
-					document.getElementById('app')
-				)
+		<div>
+			< Records data={data}/>
+		</div>,
+		document.getElementById('app')
+	)
       },
       error: function(err) {
       	console.log(err);
